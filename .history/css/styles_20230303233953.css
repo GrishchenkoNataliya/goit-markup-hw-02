@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto Regular", sans-serif;
+  font-family: open-;
+}
+/* @font-face {
+  font-family: Roboto-500;
+  src: url(../fonts/);
+}
+Підключення шрифта з папки fonts */
+
+.header {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+.header-item {
+}
+.address {
+}
+.address-list {
+}
+.address-mail {
+}
+.address-tel {
+}
