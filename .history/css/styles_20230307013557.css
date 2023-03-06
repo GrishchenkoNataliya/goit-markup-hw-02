@@ -658,7 +658,7 @@ top: 2380px; */
   order: 1;
   flex-grow: 0;
 }
-.project-card-5 {
+.Project-card-5 {
   box-sizing: border-box;
   position: absolute;
   width: 360px;
@@ -738,112 +738,20 @@ top: 2380px; */
   top: 1224px;
 }
 .project-card-7 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 .portfolio-title7 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .portfolio-text7 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .project-card-8 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 .portfolio-title8 {
-  width: 124px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .portfolio-text8 {
-  width: 65px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .project-card-9 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 .portfolio-title9 {
-  width: 119px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .portfolio-text9 {
-  width: 65px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
