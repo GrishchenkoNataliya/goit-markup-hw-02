@@ -479,6 +479,8 @@ top: 2380px; */
 }
 
 .project-card-first {
+  box-sizing: border-box;
+  position: absolute;
   width: 360px;
   height: 420px;
   left: 156px;

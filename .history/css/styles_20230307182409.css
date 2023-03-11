@@ -469,8 +469,6 @@ top: 2380px; */
   bottom: 0%;
 }
 .portfolio-section-list-first {
-  display: block;
-  margin: 8px;
   position: absolute;
   width: 1128px;
   height: 420px;
@@ -479,6 +477,8 @@ top: 2380px; */
 }
 
 .project-card-first {
+  box-sizing: border-box;
+  position: absolute;
   width: 360px;
   height: 420px;
   left: 156px;
