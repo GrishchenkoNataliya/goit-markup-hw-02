@@ -15,21 +15,11 @@ body {
 Підключення шрифта з папки fonts */
 
 .header {
-  /* position: absolute;
+  position: absolute;
   width: 1440px;
   height: 72px;
   left: 0px;
-  top: 0px; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
+  top: 0px;
 }
 
 .header-logo {
@@ -43,6 +33,8 @@ body {
   height: 24px;
   left: 156px;
   top: 24px;
+
+  color: #4d5ae5;
 }
 .header-nav {
 }
@@ -75,26 +67,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-item {
-}
-.header-link {
-  width: 48px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  /* 24/16=1.5 */
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
 
 .address {
 }
 .address-list {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -103,19 +80,8 @@ body {
   color: #434455;
 }
 .address-mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
 }
 .address-tel {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
-  color: #434455;
 }
 .main {
 }
@@ -149,7 +115,7 @@ body {
   border-radius: 4px;
 }
 /* section 1 */
-.feature {
+.feature1 {
 }
 .feature1-list {
   position: absolute;
@@ -158,7 +124,7 @@ body {
   left: 156px;
   top: 792px;
 }
-.feature-item {
+.feature1-item1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -171,7 +137,7 @@ body {
   left: 156px;
   top: 792px;
 }
-/* .feature-item {
+.feature1-item2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -184,7 +150,7 @@ body {
   left: 444px;
   top: 792px;
 }
-.feature-item {
+.feature1-item3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -197,7 +163,7 @@ body {
   left: 732px;
   top: 792px;
 }
-.feature-item {
+.feature1-item4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -209,8 +175,8 @@ body {
   height: 104px;
   left: 1020px;
   top: 792px;
-} */
-.feature-title {
+}
+.feature1-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -219,7 +185,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-/* .feature-text {
+.feature1-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -227,16 +193,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
+}
 /* section 2 */
-/* .feature {
+.feature2 {
   position: absolute;
   width: 1128px;
   height: 412px;
   left: 156px;
   top: 1016px;
 }
-.feature-title {
+.feature2-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -247,9 +213,9 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.feature-list {
+.feature2-list {
 }
-.feature-item-1 {
+.feature2-item-1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -260,41 +226,153 @@ body {
   height: 300px;
   left: 156px;
   top: 1128px;
-} */
-
-.footer {
+}
+.feature2-item-2 {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 0px;
 
-  /* position: absolute;
-  width: 115px;
-  height: 24px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 540px;
+  top: 1128px;
+}
+.feature2-item-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 924px;
+  top: 1128px;
+}
+/* section 3 */
+.feature3 {
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
+}
+.feature3-title-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.feature3-list {
+}
+.feature3-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
   left: 156px;
-  top: 2380px; */
+  top: 1780px;
+}
+.feature3-item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 444px;
+  top: 1780px;
+}
+.feature3-item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 732px;
+  top: 1780px;
+}
+.feature3-item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 1020px;
+  top: 1780px;
+}
+.feature3-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature3-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  /* position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px; */
+
+  /* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 2380px; */
 
   position: absolute;
   width: 1440px;
   height: 312px;
   left: 0px;
-  top: 2380px;
+  top: 2280px;
   background: #2e2f42;
 }
-.footer-div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  width: 264px;
-  height: 112px;
-  left: 156px;
-  top: 2380px;
-}
-.logo-studio-footer {
-  color: #f4f4fd;
-}
-
 .footer-text {
   position: absolute;
   width: 264px;
